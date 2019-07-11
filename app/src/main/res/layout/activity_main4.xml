@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="264dp"
+        android:layout_height="224dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_quran"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:inputType="textPersonName"
+        android:text="USER_NAME"
+        android:layout_marginLeft="45dp"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="240dp"
+        tools:ignore="MissingConstraglints,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_marginLeft="47dp"
+        android:id="@id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:text="EMAIL"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="301dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_marginLeft="46dp"
+        android:text="PHONE"
+        android:ems="8"
+        android:id="@id/textView"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="415dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:text="PASSWORD"
+        android:layout_marginLeft="47dp"
+        android:inputType="textPersonName"
+        android:id="@id/imageView7"
+        android:ems="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="407dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Sudah Memiliki Akun?"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="masuk disini"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="450dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
